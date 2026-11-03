@@ -12,7 +12,7 @@ def main():
             DangerousImportRule,
             ShellExecutionRule,
         ]
-    )
+    ) # What rules to detect
 
     result = checker.check(
         """
